@@ -10,7 +10,7 @@ pipeline {
                 script {
                     // Choisissez la commande en fonction de votre script
                     sh 'python -m pip install pandas' // Installer les dépendances
-                    sh 'python data_analysis.py' // Exécuter le script Python
+                    sh 'python3 data_analysis.py' // Exécuter le script Python
                 }
             }
         }
